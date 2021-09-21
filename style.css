@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .logo{
-    width: 100px;
+    width: 85px;
     cursor: pointer;
     margin: 30px 0;
 }
@@ -98,6 +98,7 @@ button{
     transition: width 0.5s;
     font-size: 20px;
     text-decoration: none;
+    border: none;
 
 }
   a{
