@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ג'וינט הקסום</title>
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <img class="logo" src="logo.png" alt="">
+        <nav>
+            <ul id="menuList">
+                <li><a href="https://www.youtube.com/channel/UCoL8MYAVfOW9zRJeWi1Qflw">מוצרים שלנו</a></li>
+                <li><a href="https://www.youtube.com/channel/UCoL8MYAVfOW9zRJeWi1Qflw">מי אנחנו</a></li>
+                <li><a href="https://www.youtube.com/channel/UCoL8MYAVfOW9zRJeWi1Qflw">בלוג שלנו</a></li>
+                <li><a href="https://www.youtube.com/channel/UCoL8MYAVfOW9zRJeWi1Qflw">צור קשר</a></li>
+            </ul>
+        </nav>
+        <img class="menu-icon" onclick="togglemenu()" src="menu.png" alt="">
+    </div>
+
+<div class="row">
+    <div class="col-1">
+        <h2>  ג'וינט<br> הקסום</h2>
+        <h3>אנחנו מגלגלים  ג'וינטים הכי טובים ואיכותיים בארץ</h3>
+        <p>(מחומרים הכי נקיים)</p>
+        <h4>רק ב-20 ₪ ליחידה</h4>
+        
+        <a href="https://www.facebook.com/photo/?fbid=4770737576288049&set=a.140742712620915"><button type="button">רוצה להזמין! <img src="arrow.png" alt=""> </button></a>
+    </div>
+    <div class="col-2">
+        <div class="inner-col-2">
+            <img src="1controller.png" alt="" class="controller">
+            <div class="color-box"></div>
+        </div>
+
+ 
+    </div>
+</div>
+<div class="social-links">
+    <img src="fb.png" alt="">
+    <img src="ig.png" alt="">
+    <img src="tw.png" alt="">
+</div>
+</div>
+
+
+<script>
+    var menuList=document.getElementById('menuList');
+
+    menuList.style.maxHeight="0";
+    function togglemenu(){
+        if(menuList.style.maxHeight=='0px')
+        {
+            menuList.style.maxHeight='130px'
+        }
+        else
+        
+        {
+            menuList.style.maxHeight='0px'
+        }
+    }
+</script>
+
+    
+</body>
+</html>
